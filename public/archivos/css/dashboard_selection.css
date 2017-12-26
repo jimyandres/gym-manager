@@ -1,0 +1,70 @@
+.middle-container {
+	padding-top: 10%;
+}
+
+/*Materialize Custom*/
+/* label color */
+.input-field label {
+  color: #212121;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #212121;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #212121;
+  box-shadow: 0 1px 0 0 #212121;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #bdbdbd;
+  box-shadow: 0 1px 0 0 #bdbdbd;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #b71c1c;
+  box-shadow: 0 1px 0 0 #b71c1c;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #212121;
+}
+
+/* label focus color type PASSWORD*/
+.input-field input[type=password]:focus + label {
+  color: #212121;
+}
+/* label underline focus color type PASSWORD */
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #212121;
+  box-shadow: 0 1px 0 0 #212121;
+}
+
+.card-image img{
+  width: auto;
+}
+
+@media (min-width: 300px){
+  .card-image img{
+    height: 150px;
+  }
+}
+
+@media (min-width: 400px){
+  .card-image img{
+    height: 200px;
+  }
+}
+
+@media (min-width: 600px){
+  .card-image img{
+    height: 250px;
+  }
+}
+
+@media (min-width: 800px){
+  .card-image img{
+    height: 300px;
+  }
+}

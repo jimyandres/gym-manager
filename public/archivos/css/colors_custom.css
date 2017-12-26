@@ -1,0 +1,15 @@
+.dark-blue{
+  background: #0F2431;
+}
+
+.custom-blue-darken-1 {
+  background: #0F2431;
+}
+
+.custom-blue-darken-2 {
+  background: #182024;
+}
+
+ul.side-nav.fixed li.logo a:hover, ul.side-nav.fixed li.logo a.active {
+   background-color: #ffffff;
+}

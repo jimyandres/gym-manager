@@ -1,0 +1,163 @@
+.dark-blue{
+  background: #0F2431;
+}
+
+.custom-blue-darken-1 {
+  background: #0F2431;
+}
+
+.custom-blue-darken-2 {
+  background: #182024;
+}
+
+ul.side-nav.fixed li.logo a:hover, ul.side-nav.fixed li.logo a.active {
+   background-color: #ffffff;
+}
+
+/*Materialize Custom*/
+/* label color */
+.input-field label {
+  color: #e0e0e0;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #bdbdbd;
+}
+
+/*Para texto*/
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #f5f5f5;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+/* Para email */
+/* label focus color */
+.input-field input[type=email]:focus + label {
+  color: #f5f5f5;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+/* Para password */
+/* label focus color type PASSWORD*/
+.input-field input[type=password]:focus + label {
+  color: #f5f5f5;
+}
+/* label underline focus color type PASSWORD */
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+/* Elementos del nav */
+.nav-wrapper .brand-logo img {
+    height: 2em;
+}
+
+/*Solucion al autocompletado del navegador*/
+@-webkit-keyframes autofill {
+    to {
+        color: #FFF;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+/*Elementos deshabilitados*/
+input:not([type]):disabled, input:not([type])[readonly="readonly"],
+input[type=text]:disabled,
+input[type=text][readonly="readonly"],
+input[type=password]:disabled,
+input[type=password][readonly="readonly"],
+input[type=email]:disabled,
+input[type=email][readonly="readonly"],
+input[type=url]:disabled,
+input[type=url][readonly="readonly"],
+input[type=time]:disabled,
+input[type=time][readonly="readonly"],
+input[type=date]:disabled,
+input[type=date][readonly="readonly"],
+input[type=datetime]:disabled,
+input[type=datetime][readonly="readonly"],
+input[type=datetime-local]:disabled,
+input[type=datetime-local][readonly="readonly"],
+input[type=tel]:disabled,
+input[type=tel][readonly="readonly"],
+input[type=number]:disabled,
+input[type=number][readonly="readonly"],
+input[type=search]:disabled,
+input[type=search][readonly="readonly"],
+textarea.materialize-textarea:disabled,
+textarea.materialize-textarea[readonly="readonly"] {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+}
+
+input:not([type]):disabled + label,
+input:not([type])[readonly="readonly"] + label,
+input[type=text]:disabled + label,
+input[type=text][readonly="readonly"] + label,
+input[type=password]:disabled + label,
+input[type=password][readonly="readonly"] + label,
+input[type=email]:disabled + label,
+input[type=email][readonly="readonly"] + label,
+input[type=url]:disabled + label,
+input[type=url][readonly="readonly"] + label,
+input[type=time]:disabled + label,
+input[type=time][readonly="readonly"] + label,
+input[type=date]:disabled + label,
+input[type=date][readonly="readonly"] + label,
+input[type=datetime]:disabled + label,
+input[type=datetime][readonly="readonly"] + label,
+input[type=datetime-local]:disabled + label,
+input[type=datetime-local][readonly="readonly"] + label,
+input[type=tel]:disabled + label,
+input[type=tel][readonly="readonly"] + label,
+input[type=number]:disabled + label,
+input[type=number][readonly="readonly"] + label,
+input[type=search]:disabled + label,
+input[type=search][readonly="readonly"] + label,
+textarea.materialize-textarea:disabled + label,
+textarea.materialize-textarea[readonly="readonly"] + label {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* .select-wrapper span.caret.disabled {
+  color: rgba(0, 0, 0, 0.26);
+} */
+
+select:disabled {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.select-wrapper input.select-dropdown:disabled {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: default;
+  -webkit-user-select: none;
+  /* webkit (safari, chrome) browsers */
+  -moz-user-select: none;
+  /* mozilla browsers */
+  -ms-user-select: none;
+  /* IE10+ */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* .select-dropdown li.disabled,
+.select-dropdown li.disabled > span,
+.select-dropdown li.optgroup {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+} */
